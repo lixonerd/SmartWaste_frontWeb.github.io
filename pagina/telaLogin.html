@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--link para a imagem de logo, ainda n tem-->
+        <link rel="icon" href="img/logo.png" type="image/x-icon">
+        <title> SmartWaste</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            /*configuração especifica dessa pagina*/
+        </style>
+        <script src="script.js"></script>
+    </head>
+    <header>
+        <!--barra superiou ou algo desse tipo-->
+    </header>
+    <body>
+        <center>
+        <!--conteudo da tela-->
+            <img src="img/logo.png"> <!--link para imagem da logo-->
+
+            <form id="login-form">
+                <div>
+                    <table>
+                        <tr>
+                            <th><label for="username">CPF:</label></th>
+                            <th><input type="text" id="username" name="username" required></th>
+                        </tr>
+                        <tr>
+                            <th><label for="password">SENHA:</label></th>
+                            <th><input type="password" id="password" name="password" required></th>
+                        </tr>
+                    </table>
+                    <button type="submit">Login</button>
+
+                    <p id="error"></p>
+                </div>
+            </form>
+
+            <!--<div>
+                <table>
+                    <tr>
+                        <th><a>CPF:</a></th> 
+                        <th><input type="cpf" id="cpf" name="cpf"/></th>
+                    </tr>
+                    <tr>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <th><a>Senha:</a></th>
+                        <th><input type="password" id="senha" name="senha"/></th>
+                    </tr>
+                </table>
+                <p></p>
+                <button type="submit" id="login" onclick="entrar()">Entrar</button>
+            </div>-->
+        </center>
+    </body>
+</html>
