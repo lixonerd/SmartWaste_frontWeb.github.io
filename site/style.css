@@ -9,12 +9,12 @@ div{
     padding: 10px;
     border-radius: 20px;
 }
-.menu{
-    z-index: 2;
+#menu{
+    z-index: 1000;
     background-color: #447C50;
     
 }
-.menu svg{
+#menu svg{
     color: #d9d9d9;
 }
 
@@ -42,7 +42,7 @@ button:hover{
     border: 1px;
     background-color: #5db670;
 }
-.erro{
+#erro{
     color:red;
     font-weight: lighter;
 }

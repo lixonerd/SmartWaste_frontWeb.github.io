@@ -1,7 +1,63 @@
 /* Receber objetos */
 var menu = document.getElementById("menu");
-var bntAdd = document.getElementById("adicionar");
-var btnDelet = document.getElementById("deletar");
-var btnEdit = document.getElementById("editar");
-var btnRel = document.getElementById("relatorio");
+var mnAddPnt = document.getElementById("menuAddPonto");
+var mnDelPnt = document.getElementById("menuDelPonto");
+var mnEditPnt = document.getElementById("menuAddPonto");
+var mnDelPnt = document.getElementById("menuDelPonto");
+var mnGrrRltr = document.getElementById("menuGerarRelatorio");
+var listaPnts = document.getElementById("listaPontos");
 
+function abrirMenu(){
+    menu.style.display = "block";
+}
+
+function fecharMenu(){
+    menu.style.display = "none";
+}
+
+function abrirAddPnt(){
+    mnAddPnt.style.display = "block";
+}
+
+function fecharAddPnt(){
+    mnAddPnt.style.display = "none";
+}
+
+function abrirEditPnt(){
+    mnEditPnt.style.display = "block";
+}
+
+function fecharEditPnt(){
+    mnEditPnt.style.display = "none";
+}
+
+function abrirDelPnt(){
+    mnDelPnt.style.display = "block";
+}
+
+function fecharDelPnt(){
+    mnDelPnt.style.display = "none";
+}
+
+function abrirGerarRelatorio(){
+    mnGrrRltr.style.display = "block";
+}
+
+function fecharGerarRelatorio(){
+    mnGrrRltr.style.display = "none";
+}
+
+function abrirListaPnts(){
+    listaPnts.style.display = "block";
+}
+
+function fecharListaPnts(){
+    listaPnts.style.display = "none";
+}
+
+fecharMenu();
+fecharAddPnt();
+fecharDelPnt();
+fecharEditPnt();
+fecharGerarRelatorio();
+fecharListaPnts();
